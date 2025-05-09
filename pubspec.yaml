@@ -1,0 +1,34 @@
+name: task_management_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  pie_chart: ^5.4.0
+  fl_chart: ^0.64.0
+  riverpod: ^2.6.1
+  flutter_riverpod: ^2.4.9
+  rename: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1  # ✅ You were missing this line
+
+flutter_icons: # ✅ Correct key for icon config
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/icon.png
